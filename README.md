@@ -16,7 +16,7 @@ shellcode_runn3r.cpp:37:5: warning: 'auto' type specifier is a C++11 extension [
 echo -en '\x1F\x20\x03\xD5\x00\x00\x00\x14' > shellcode.bin
 ```
 
-3. Run the compiled code with the generated shellcode file (observe the infinite loop):
+3. Run the compiled code with the generated shellcode file (observe the infinite loop as an example):
 ```
 ./shellcode_runn3r shellcode.bin
 Executing shellcode...
